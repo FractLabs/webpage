@@ -1,5 +1,5 @@
 html, body {
-    background: url(../images/background.png);
+    background-color: #002c3d;
     background-size: 10000px;
     display: flex;
     justify-content: center;
@@ -70,11 +70,12 @@ table {
     gap: 10px;
     color: white;
     display: inline-flex;
-    transition: background-color 0.3s;
+    transition: background-color 0.1s;
     font-weight: bold;
     border-radius: 8px;
     height: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
 }
 
 .discord {
@@ -84,11 +85,12 @@ table {
     gap: 10px;
     color: white;
     display: inline-flex;
-    transition: background-color 0.3s;
+    transition: background-color 0.1s;
     font-weight: bold;
     border-radius: 8px;
     height: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
 }
 
 .github-btn:hover {
@@ -106,11 +108,12 @@ table {
     gap: 10px;
     color: white;
     display: inline-flex;
-    transition: background-color 0.3s;
+    transition: background-color 0.1s;
     font-weight: bold;
     border-radius: 8px;
     height: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
 }
 
 .twitter:hover {
@@ -124,11 +127,12 @@ table {
     gap: 10px;
     color: white;
     display: inline-flex;
-    transition: background-color 0.3s;
+    transition: background-color 0.1s;
     font-weight: bold;
     border-radius: 8px;
     height: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
 }
 
 .youtube:hover {
@@ -142,11 +146,12 @@ table {
     gap: 10px;
     color: white;
     display: inline-flex;
-    transition: background-color 0.3s;
+    transition: background-color 0.1s;
     font-weight: bold;
     border-radius: 8px;
     height: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
 }
 
 .go-back:hover {
