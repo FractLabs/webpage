@@ -135,3 +135,9 @@ table {
 .social-medias:hover {
     background-color: #0eabce;
 }
+
+.ico {
+    margin:-50px 0px;
+    height: 60px;
+    width: 60px;
+}
