@@ -70,7 +70,7 @@ table {
     gap: 10px;
     color: white;
     display: inline-flex;
-    transition: background-color 0.1s;
+    transition: 0.1s;
     font-weight: bold;
     border-radius: 8px;
     height: 30px;
@@ -85,7 +85,7 @@ table {
     gap: 10px;
     color: white;
     display: inline-flex;
-    transition: background-color 0.1s;
+    transition: 0.1s;
     font-weight: bold;
     border-radius: 8px;
     height: 30px;
@@ -108,7 +108,7 @@ table {
     gap: 10px;
     color: white;
     display: inline-flex;
-    transition: background-color 0.1s;
+    transition: 0.1s;
     font-weight: bold;
     border-radius: 8px;
     height: 30px;
@@ -127,7 +127,7 @@ table {
     gap: 10px;
     color: white;
     display: inline-flex;
-    transition: background-color 0.1s;
+    transition: 0.1s;
     font-weight: bold;
     border-radius: 8px;
     height: 30px;
@@ -146,7 +146,7 @@ table {
     gap: 10px;
     color: white;
     display: inline-flex;
-    transition: background-color 0.1s;
+    transition: 0.1s;
     font-weight: bold;
     border-radius: 8px;
     height: 30px;

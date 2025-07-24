@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: https://fractlabs.com/sitemap.xml
