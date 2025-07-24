@@ -41,27 +41,12 @@ section {
     text-align: center;
 }
 
-.apps{
-    text-align: center;
-    margin: auto;
-}
-
-.apps-text-desc {
-    display: inline-flex;
-}
-
-.apps-text {
-    font:bold 32px verdana;
-    color: white;
-}
-
 .app-text {
     font:bold 32px verdana;
     color: white;
-    padding: 0px 60px;
 }
 
-.desc-apps {
+.desc-app {
     font:normal 16px cursive;
     color: white;
 }
@@ -80,16 +65,20 @@ section {
     width: 375px;
 }
 
-.fp {
-    transition: 0.1s;
-    background-color: white;
-    height: 225px;
-    width: 365px;
-    border-radius: 8px;
-    margin: auto;
+.app-img {
+    border-radius: 10px;
 }
 
-.fp:hover {
-    height: 235px;
-    width: 375px;
+.download-btn {
+    background-color:#001227;
+    padding: 15px 16px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font:normal 16px verdana;
+    transition: 0.1s;
+}
+
+.download-btn:hover {
+    background-color:#00234b;
 }
