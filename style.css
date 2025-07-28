@@ -61,6 +61,14 @@ h1 {
     text-align: left;
 }
 
+.about-us-div {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+    margin-top: 13vh;
+}
+
 header {
     text-align: center;
 }
@@ -110,7 +118,7 @@ a {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1440px;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 0 0px;
@@ -184,6 +192,7 @@ a {
     transform: translateY(20px);
     animation: fadeUp 1s ease-out forwards;
     animation-delay: 2s;
+    margin-top: 5vh;
 }
 
 .app{
@@ -214,9 +223,9 @@ a {
 }
 
 .ico {
-    margin:-50px 0px;
-    height: 60px;
-    width: 60px;
+    margin:-70px 0px;
+    height: 192px;
+    width: 192px;
 }
 
 @keyframes fadeUp {
