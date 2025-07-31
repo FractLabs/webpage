@@ -1,15 +1,15 @@
 html, body{
-    background-color: #002c3d;
+    background-color: #0f0f0f; 
 }
 
 
 .header-div {
-    background-color: #004958;
+    background-color: #1b1b1b;
     display: flex;
     border-radius: 8px;
     width: 100%;
     height: 65px;
-    box-shadow: 5px 5px 5px #001227;
+/*    box-shadow: 5px 5px 5px #1f1f1f; */
 }
 
 .ico {
@@ -50,7 +50,8 @@ header {
 
 
 footer {
-    text-align: center;
+    vertical-align: bottom;
+    text-align: center
 }
 
 p {
@@ -66,7 +67,7 @@ section {
 
 hr {
     color: #00a2ff;
-    width: 500px;
+    width: 90%;
 }
 
 h4 {
@@ -76,19 +77,23 @@ h4 {
     display: inline-flex;
 }
 
+a {
+    margin: 5%;
+}
+
 table {
     margin: auto;
     text-align: center;
 }
 
 .container {
-    background-color: #004958;
-    width: 600px;
+    background-color: #0f0f0f; 
+    width: 75%;
     margin: auto;
     padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 0 30px;
-    margin-top: 40px;
+
+
+    margin-top: 5%;
 }
 
 .github-btn {

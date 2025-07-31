@@ -1,15 +1,16 @@
 html, body{
-    background-color: #002c3d;
+    background-color: #0f0f0f;  
 }
 
 .header-div {
-    background-color: #004958;
+    background-color: #1b1b1b;
     display: flex;
     border-radius: 8px;
     width: 100%;
     height: 65px;
-    box-shadow: 5px 5px 5px #001227;
+/*    box-shadow: 5px 5px 5px #1f1f1f; */
 }
+
 
 .ico {
     margin: 10px;
@@ -42,12 +43,12 @@ section {
 }
 
 .app-text {
-    font:bold 32px verdana;
+    font:bold 32px monospace;
     color: white;
 }
 
 .desc-app {
-    font:normal 16px cursive;
+    font:bold 16px sans-serif;
     color: white;
 }
 
@@ -70,15 +71,23 @@ section {
 }
 
 .download-btn {
-    background-color:#001227;
+    background-color: #242424;
     padding: 15px 16px;
     border-radius: 8px;
     color: white;
     text-decoration: none;
-    font:normal 16px verdana;
-    transition: 0.1s;
+    font:bold 16px sans-serif;
+    transition: 0.2s;
+   flex-wrap: wrap;
 }
 
 .download-btn:hover {
-    background-color:#00234b;
+    background-color:#014858;
+}
+
+.downloads {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }

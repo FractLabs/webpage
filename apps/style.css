@@ -1,14 +1,14 @@
 html, body{
-    background-color: #002c3d;
+    background-color: #0f0f0f;  
 }
 
 .header-div {
-    background-color: #004958;
+    background-color: #1b1b1b;
     display: flex;
     border-radius: 8px;
     width: 100%;
     height: 65px;
-    box-shadow: 5px 5px 5px #001227;
+/*    box-shadow: 5px 5px 5px #1f1f1f; */
 }
 
 .ico {
@@ -47,16 +47,20 @@ section {
 }
 
 .apps-text-desc {
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
 }
 
 .apps-text {
-    font:bold 32px verdana;
+    font: bold 25px monospace;
     color: white;
 }
 
 .app-text {
-    font:bold 32px verdana;
+    font: bold 25px monospace;
     color: white;
     padding: 0px 60px;
 }
